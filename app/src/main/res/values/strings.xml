@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clase On Click</string>
+
+    <string name="hEditText">Escribe aquí</string>
+    <string name="btn_mostrar">Mostrar</string>
+    <string name="btn_notificacion">Notificación</string>
+
+</resources>
