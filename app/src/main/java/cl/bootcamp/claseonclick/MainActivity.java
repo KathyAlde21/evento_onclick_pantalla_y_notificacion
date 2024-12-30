@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         });
      }
 
-     //evento onclick radiobutton
+     //evento onclick radiobutton - como esta en grupo solo se puede marcar uno
      public void validarRadioButtons() {
          btnValidarRb.setOnClickListener(new View.OnClickListener() {
              @Override

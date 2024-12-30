@@ -30,7 +30,8 @@ Utilizando dos botones se muestran dos formas diferentes de llamar un mensaje, u
 
 **<h2>Botones Radio Button</h2>**
 - Coloque tres opciones y el boton validar que ejecuta un evento onclick que muestra en pantalla la opción seleccionada
-<img src="./app/src/main/res/drawable/ejercicio_clase..." alt="">
+<img src="./app/src/main/res/drawable/radio_group.jpg" alt="">
 
-
-<img src="./app/src/main/res/drawable/ejercicio_clase..." alt="">
+**<h2>Resumen</h2>**
+- Captura de pantalla con todo lo realizado
+<img src="./app/src/main/res/drawable/screenshot.png" alt="">
