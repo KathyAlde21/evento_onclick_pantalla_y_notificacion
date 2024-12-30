@@ -5,4 +5,9 @@
     <string name="btn_mostrar">Mostrar</string>
     <string name="btn_notificacion">Notificación</string>
 
+    <!-- check box-->
+    <string name="cb_opt1">Opción 1</string>
+    <string name="cb_opt2">Opción 2</string>
+    <string name="btn_opciones">Validar</string>
+
 </resources>
