@@ -22,8 +22,15 @@ Utilizando dos botones se muestran dos formas diferentes de llamar un mensaje, u
 - Puedo editarla cambiando color, estilo u otros, en este caso aumente su tamaño y coloque negrita:
 <img src="./app/src/main/res/drawable/editando_fuente.jpg" alt="">
 
-**<h2>Botones CheckBox</h2>**
 
+**<h2>Botones CheckBox</h2>**
+- Coloque dos opciones en el checkbox y con el boton validar se ejecuto evento onclick que muestra en pantalla la opción seleccionada
+<img src="./app/src/main/res/drawable/checkbox_evento_onclick.jpg" alt="">
+
+
+**<h2>Botones Radio Button</h2>**
+- Coloque tres opciones y el boton validar que ejecuta un evento onclick que muestra en pantalla la opción seleccionada
 <img src="./app/src/main/res/drawable/ejercicio_clase..." alt="">
-<img src="./app/src/main/res/drawable/ejercicio_clase..." alt="">
+
+
 <img src="./app/src/main/res/drawable/ejercicio_clase..." alt="">

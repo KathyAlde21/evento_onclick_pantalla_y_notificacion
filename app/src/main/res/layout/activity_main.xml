@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-        tools:context=".MainActivity">
+    tools:context=".MainActivity">
 
 
     <!-- es imprtante usar uno que represente al codigo -->
@@ -68,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/cb_opt1"
+        android:text="@string/opt1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,8 +78,8 @@
         android:id="@+id/cbOpcion2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/cb_opt2"
+        android:layout_marginTop="5dp"
+        android:text="@string/opt2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.165"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,6 +95,51 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnNotificacion"
         app:layout_constraintVertical_bias="0.133" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbOpcion2">
+
+    <!-- si coloco true a uno de ellos obligo
+    a que este con una opción marcada -->
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rbOpcion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opt1" />
+
+        <RadioButton
+            android:id="@+id/rbOpcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opt2" />
+
+        <RadioButton
+            android:id="@+id/rbOpcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opt3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnValidarRb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:text="@string/btn_opciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toEndOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/btnValidarCb"
+        app:layout_constraintVertical_bias="0.544" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
